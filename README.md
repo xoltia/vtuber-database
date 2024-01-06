@@ -3,6 +3,13 @@
 ## About
 This is a database of vtubers in JSON format. It is generated from data on hololist.net and the YouTube API.
 
+## Download
+Download from the [releases page](https://github.com/xoltia/vtuber-database/releases).
+Here are the latest:
+- [vtubers-basic.json](https://github.com/xoltia/vtuber-database/releases/latest/download/vtubers-basic.json)
+- [vtubers-detailed.json](https://github.com/xoltia/vtuber-database/releases/latest/download/vtubers-detailed.json)
+- [vtubers-detailed-with-youtube.json](https://github.com/xoltia/vtuber-database/releases/latest/download/vtubers-detailed-with-youtube.json)
+
 ## Format
 
 ### Basic
