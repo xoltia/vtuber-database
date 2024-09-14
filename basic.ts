@@ -18,7 +18,7 @@ async function getTopVtubersPage(pageNumber: Number): Promise<VTuberBasicInfo[]>
         const name = $(element).find('span[itemprop="name"]').text();
         const affiliation = $(element).find('div[itemprop="affiliation"]').text();
         const url = $(element).find('a.line-truncate').attr('href');
-        const image = $(element).find('img.lazy-image.me-2.border.rounded-circle').attr('data-src');
+        const image = $(element).find('img.lazy-image.border.rounded-circle').attr('data-src');
 
         if (!url) {
             console.warn(`No url found for ${name}`);
